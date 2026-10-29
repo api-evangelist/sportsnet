@@ -64,23 +64,92 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Sportsnet stats ticker is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
+Sportsnet is a Canadian sports media brand delivering news, scores, live streaming, and highlights across major leagues such as NHL, MLB, NBA, and CFL. While the company’s website hosts a sports‑stats ticker, no public API documentation or endpoints were discovered during probing. The organization’s primary online presence is at sportsnet.ca, which provides extensive sports coverage and a contact page for support.
 
-**Areas:** Company
+**Areas:** Sports · News · Canada · Media · API
 
 ## Sportsnet stats ticker on APIs.io
 
 Everything profiled for Sportsnet stats ticker is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/sportsnet/](https://apis.io/providers/sportsnet/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Sportsnet Authentication](https://apis.io/security/sportsnet/sportsnet-authentication/)
+- [Sportsnet Domain Security](https://apis.io/security/sportsnet/sportsnet-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Sportsnet Scopes](https://apis.io/scopes/sportsnet/sportsnet-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Sportsnet Plans Pricing](https://apis.io/plans/sportsnet/sportsnet-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Sportsnet Rate Limits](https://apis.io/rate-limits/sportsnet/sportsnet-rate-limits/)
 
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://sportsnet.ca/)
+- [Support](https://www.sportsnet.ca/contact-us/)
 
 ## API Evangelist rating
 
-Not yet rated. See [apis.io/providers/sportsnet/](https://apis.io/providers/sportsnet/).
+**Kin Score 7.2** — minimal · rubric 0.25.0 · scored 2026-10-28
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 11.2 |
+| Access clarity | 0.0 |
+
+**Agent readiness 8.9** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 15.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/sportsnet/](https://apis.io/providers/sportsnet/).
 
 ## How this profile is made
 
